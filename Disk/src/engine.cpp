@@ -9,7 +9,7 @@ bool GraphicEngine::Start(GLFWwindow*& window) {
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
 
-    window = glfwCreateWindow(1200, 800, "Disk Cleaner", NULL, NULL);
+    window = glfwCreateWindow(1200, 800, "ByteMap", NULL, NULL);
     if (!window) { glfwTerminate(); return false; }
 
     glfwMakeContextCurrent(window);
